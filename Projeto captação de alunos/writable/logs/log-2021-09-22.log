@@ -1,0 +1,1151 @@
+CRITICAL - 2021-09-22 07:07:08 --> Array to string conversion
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_forms.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\Estudos\\Code...', 11)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_forms', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(25): view('aluno_forms', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 07:07:45 --> Array to string conversion
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\Estudos\\Code...', 20)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 07:10:36 --> CodeIgniter\Model::set(): Argument #2 ($value) must be of type ?string, array given, called in D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php on line 17
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(17): CodeIgniter\Model->set(Array, Array)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 07:13:57 --> CodeIgniter\Model::set(): Argument #2 ($value) must be of type ?string, array given, called in D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php on line 22
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(22): CodeIgniter\Model->set(Array, Array)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 07:14:21 --> There is no data to insert.
+#0 D:\Estudos\Codeigniter\odio\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\Estudos\Codeigniter\odio\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(NULL, true)
+#3 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(24): CodeIgniter\Model->insert()
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-22 07:15:43 --> Object of class App\Models\AlunoModel could not be converted to string
+#0 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-22 07:15:54 --> There is no data to insert.
+#0 D:\Estudos\Codeigniter\odio\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\Estudos\Codeigniter\odio\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(NULL, true)
+#3 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(25): CodeIgniter\Model->insert()
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-22 07:23:14 --> Call to a member function insert() on null
+#0 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-22 07:25:16 --> Undefined property: App\Controllers\Aluno::$input
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Estudos\\Code...', 18)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 07:25:47 --> Undefined property: App\Controllers\Aluno::$input
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Estudos\\Code...', 18)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 07:28:29 --> Undefined property: App\Controllers\Aluno::$input
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Estudos\\Code...', 18)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 07:29:45 --> Undefined property: App\Controllers\Aluno::$input
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Estudos\\Code...', 18)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 07:30:40 --> Undefined property: App\Controllers\Aluno::$input
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Estudos\\Code...', 18)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 07:52:01 --> Undefined property: App\Controllers\Aluno::$db
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Estudos\\Code...', 26)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 08:05:46 --> Undefined property: App\Controllers\Aluno::$db
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Estudos\\Code...', 26)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 08:05:57 --> Call to undefined method App\Controllers\Aluno::findAll()
+#0 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-22 08:06:06 --> Undefined property: App\Controllers\Aluno::$db
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Estudos\\Code...', 26)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 08:06:20 --> Undefined property: App\Controllers\Aluno::$aluno
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Estudos\\Code...', 26)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 08:06:35 --> Undefined property: App\Controllers\Aluno::$alunos
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Estudos\\Code...', 26)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 08:07:03 --> Undefined property: App\Controllers\Aluno::$cpf
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Estudos\\Code...', 26)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 08:07:33 --> Call to undefined method App\Controllers\Aluno::findAll()
+#0 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-22 09:42:29 --> syntax error, unexpected token "as", expecting ")"
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(9): view('aluno_select', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-22 09:45:55 --> syntax error, unexpected token "as", expecting ")"
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(9): view('aluno_select', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-22 09:52:21 --> syntax error, unexpected token "as", expecting ")"
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(9): view('aluno_select', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-22 09:52:22 --> syntax error, unexpected token "as", expecting ")"
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(9): view('aluno_select', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-22 09:53:32 --> syntax error, unexpected token "as", expecting ")"
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(9): view('aluno_select', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-22 12:42:33 --> syntax error, unexpected token "}"
+#0 D:\Estudos\Codeigniter\odio\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('Aluno/cadastrar')
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('Aluno/cadastrar')
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 12:42:38 --> syntax error, unexpected token "}"
+#0 D:\Estudos\Codeigniter\odio\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Estudos\\Code...')
+#1 D:\Estudos\Codeigniter\odio\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-22 13:16:47 --> Undefined property: stdClass::$name
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_forms.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Estudos\\Code...', 8)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_forms', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(50): view('aluno_forms', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->atualizar('1')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 14:26:38 --> Undefined property: App\Controllers\Aluno::$load
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Estudos\\Code...', 66)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->deletar('3')
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-09-22 16:35:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+CRITICAL - 2021-09-22 16:35:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+#0 D:\Estudos\Codeigniter\odio\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(138): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Estudos\Codeigniter\odio\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, Array)
+#6 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(96): CodeIgniter\BaseModel->find(Array)
+#7 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(17): App\Controllers\Aluno->search(Array)
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#9 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#10 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-09-22 16:36:43 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 D:\Estudos\Codeigniter\odio\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Estudos\\Code...')
+#1 D:\Estudos\Codeigniter\odio\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-22 16:36:48 --> Array to string conversion
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\Estudos\\Code...', 18)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 16:40:07 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 20)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 16:44:19 --> Undefined array key "search"
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Estudos\\Code...', 17)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 16:44:22 --> Undefined array key "search"
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Estudos\\Code...', 17)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 16:48:56 --> Undefined array key "search"
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Estudos\\Code...', 17)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 16:49:00 --> Undefined array key "search"
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Estudos\\Code...', 17)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 16:51:08 --> Undefined array key "search"
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Estudos\\Code...', 17)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 17:18:46 --> Too few arguments to function App\Controllers\Aluno::search(), 0 passed in D:\Estudos\Codeigniter\odio\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->search()
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-22 18:02:12 --> foreach() argument must be of type array|object, null given
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\Estudos\\Code...', 20)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(17): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:02:41 --> foreach() argument must be of type array|object, null given
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\Estudos\\Code...', 20)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(17): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:06:33 --> foreach() argument must be of type array|object, null given
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\Estudos\\Code...', 21)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(22): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:06:41 --> foreach() argument must be of type array|object, null given
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\Estudos\\Code...', 21)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(22): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:06:47 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 23)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(22): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:08:50 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(23): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:09:54 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(23): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:10:04 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(23): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:11:06 --> Cannot use object of type stdClass as array
+#0 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-22 18:11:16 --> Cannot use object of type stdClass as array
+#0 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-22 18:12:03 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(24): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:12:10 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(24): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:13:56 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(24): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:24:36 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(24): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:24:48 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(25): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:25:08 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(25): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:25:16 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(25): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:25:36 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(25): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:25:58 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(25): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:27:26 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(25): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:27:32 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(25): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:29:32 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(26): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:29:33 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(26): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:29:35 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(26): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:34:02 --> syntax error, unexpected token ";"
+#0 D:\Estudos\Codeigniter\odio\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('Aluno/index/dat...')
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('Aluno/index/dat...')
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 18:34:08 --> syntax error, unexpected token ";"
+#0 D:\Estudos\Codeigniter\odio\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('Aluno/index/dat...')
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('Aluno/index/dat...')
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 18:34:10 --> syntax error, unexpected token ";"
+#0 D:\Estudos\Codeigniter\odio\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('Aluno/index/dat...')
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('Aluno/index/dat...')
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 18:34:11 --> syntax error, unexpected token ";"
+#0 D:\Estudos\Codeigniter\odio\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('Aluno/index/dat...')
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('Aluno/index/dat...')
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 18:34:13 --> syntax error, unexpected token ";"
+#0 D:\Estudos\Codeigniter\odio\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('Aluno/index/dat...')
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('Aluno/index/dat...')
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 18:42:12 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(33): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:47:10 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(36): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:47:37 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(36): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:50:22 --> syntax error, unexpected token "}"
+#0 D:\Estudos\Codeigniter\odio\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('Aluno/index/dat...')
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('Aluno/index/dat...')
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 18:50:41 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(33): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:51:31 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(32): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:51:33 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(32): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:51:38 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(32): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 18:53:05 --> Attempt to read property "id" on string
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_select', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(32): view('aluno_select', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 19:00:37 --> Invalid file: aluno_search.php
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('aluno_search.ph...')
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(21): view('aluno_search', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-22 19:00:43 --> Invalid file: aluno_search.php
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('aluno_search.ph...')
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(21): view('aluno_search', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-22 19:02:44 --> Undefined variable $titulo
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Estudos\\Code...', 1)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(21): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 19:04:23 --> Undefined variable $msg
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Estudos\\Code...', 9)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(21): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 19:05:15 --> Attempt to read property "id" on array
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 21)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(20): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index('data')
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 19:17:49 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 21)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(20): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 19:18:54 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 21)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(20): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:18:16 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 21)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(20): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:18:38 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 21)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(20): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:25:17 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 21)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(23): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:27:48 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(23): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:28:43 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(23): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:28:47 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(23): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:28:51 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(23): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:28:57 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(23): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:30:18 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(23): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:30:22 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(23): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:30:30 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(23): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:31:30 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(25): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:31:33 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(25): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:31:36 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(25): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:31:40 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(25): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:31:47 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(25): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:32:19 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(26): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:33:51 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(26): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:36:05 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(27): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:36:58 --> Attempt to read property "id" on array
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(21): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:44:22 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(24): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:46:07 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(24): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:47:32 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(24): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:51:27 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(24): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:51:33 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(24): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:51:38 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(24): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:52:06 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(25): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:56:04 --> syntax error, unexpected token "*"
+#0 D:\Estudos\Codeigniter\odio\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('Aluno/index')
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('Aluno/index')
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 21:56:14 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(24): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:59:50 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(28): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 21:59:56 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(28): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 22:08:00 --> Attempt to read property "id" on null
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_search.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Estudos\\Code...', 22)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_search', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(24): view('aluno_search', Array)
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->index()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 22:44:57 --> required  is not a valid rule.
+#0 D:\Estudos\Codeigniter\odio\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 D:\Estudos\Codeigniter\odio\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nome', 'nome', '', Array, Array)
+#2 D:\Estudos\Codeigniter\odio\system\BaseModel.php(1343): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(51): CodeIgniter\Model->insert(Array)
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-09-22 22:46:29 --> Call to undefined method App\Models\AlunoModel::erros
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(55): CodeIgniter\Model->__call('erros', Array)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 22:52:36 --> min_lenght is not a valid rule.
+#0 D:\Estudos\Codeigniter\odio\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+#1 D:\Estudos\Codeigniter\odio\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nome', 'nome', 'lllll', Array, Array)
+#2 D:\Estudos\Codeigniter\odio\system\BaseModel.php(1343): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(51): CodeIgniter\Model->insert(Array)
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

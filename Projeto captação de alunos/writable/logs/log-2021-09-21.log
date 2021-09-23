@@ -1,0 +1,486 @@
+CRITICAL - 2021-09-21 15:36:24 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 D:\Estudos\Codeigniter\odio\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('Helloword/hello...')
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('Helloword/hello...')
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 15:54:04 --> syntax error, unexpected token "if"
+#0 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-09-21 15:54:15 --> syntax error, unexpected token "if"
+#0 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-09-21 15:54:20 --> syntax error, unexpected token "if"
+#0 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-09-21 15:54:25 --> syntax error, unexpected token "if"
+#0 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-09-21 15:54:27 --> syntax error, unexpected token "if"
+#0 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-09-21 15:54:42 --> Undefined variable $routs
+#0 D:\Estudos\Codeigniter\odio\app\Config\Routes.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Estudos\\Code...', 35)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(689): require('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 15:54:52 --> Undefined variable $routs
+#0 D:\Estudos\Codeigniter\odio\app\Config\Routes.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Estudos\\Code...', 35)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(689): require('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 15:55:13 --> Undefined variable $routs
+#0 D:\Estudos\Codeigniter\odio\app\Config\Routes.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Estudos\\Code...', 35)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(689): require('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 15:56:28 --> syntax error, unexpected token "if"
+#0 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-09-21 15:59:17 --> Too few arguments to function App\Controllers\Produtos::detalhes(), 0 passed in D:\Estudos\Codeigniter\odio\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Produtos->detalhes()
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-21 15:59:24 --> Too few arguments to function App\Controllers\Produtos::detalhes(), 0 passed in D:\Estudos\Codeigniter\odio\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Produtos->detalhes()
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-21 16:45:58 --> syntax error, unexpected token "}", expecting ";"
+#0 D:\Estudos\Codeigniter\odio\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('produtos')
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('produtos')
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 17:04:43 --> Invalid file: produtos_detalhados.php
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produtos_detalh...')
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('produtos_detalh...', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Produtos.php(20): view('produtos_detalh...', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Produtos->detalhes('10')
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-21 17:05:48 --> Invalid file: produtos_detalhados.php
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produtos_detalh...')
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('produtos_detalh...', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Produtos.php(20): view('produtos_detalh...', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Produtos->detalhes('10')
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-21 17:06:27 --> Invalid file: produtos_detalhados.php
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produtos_detalh...')
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('produtos_detalh...', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Produtos.php(20): view('produtos_detalh...', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Produtos->detalhes('10')
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-21 17:07:01 --> Invalid file: produtos_detalhados.php
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produtos_detalh...')
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('produtos_detalh...', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Produtos.php(20): view('produtos_detalh...', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Produtos->detalhes('10')
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-21 17:07:41 --> Invalid file: produtos_detalhados.php
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produtos_detalh...')
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('produtos_detalh...', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Produtos.php(20): view('produtos_detalh...', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Produtos->detalhes('10')
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-21 17:07:42 --> Invalid file: produtos_detalhados.php
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produtos_detalh...')
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('produtos_detalh...', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Produtos.php(20): view('produtos_detalh...', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Produtos->detalhes('10')
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-21 17:07:42 --> Invalid file: produtos_detalhados.php
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produtos_detalh...')
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('produtos_detalh...', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Produtos.php(20): view('produtos_detalh...', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Produtos->detalhes('10')
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-21 17:07:43 --> Invalid file: produtos_detalhados.php
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produtos_detalh...')
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('produtos_detalh...', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Produtos.php(20): view('produtos_detalh...', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Produtos->detalhes('10')
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-21 17:07:43 --> Invalid file: produtos_detalhados.php
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produtos_detalh...')
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('produtos_detalh...', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Produtos.php(20): view('produtos_detalh...', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Produtos->detalhes('10')
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-21 17:07:48 --> Invalid file: produtos_detalhados.php
+#0 D:\Estudos\Codeigniter\odio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produtos_detalh...')
+#1 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('produtos_detalh...', Array, true)
+#2 D:\Estudos\Codeigniter\odio\app\Controllers\Produtos.php(20): view('produtos_detalh...', Array)
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Produtos->detalhes('10')
+#4 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-21 21:44:22 --> Undefined variable $titulo
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_forms.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Estudos\\Code...', 7)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_forms', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(10): view('aluno_forms')
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-21 21:44:48 --> Undefined variable $titulo
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_forms.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Estudos\\Code...', 7)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_forms', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(10): view('aluno_forms')
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-21 21:44:49 --> Undefined variable $titulo
+#0 D:\Estudos\Codeigniter\odio\app\Views\aluno_forms.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Estudos\\Code...', 7)
+#1 D:\Estudos\Codeigniter\odio\system\View\View.php(214): include('D:\\Estudos\\Code...')
+#2 D:\Estudos\Codeigniter\odio\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Estudos\Codeigniter\odio\system\Common.php(1092): CodeIgniter\View\View->render('aluno_forms', Array, true)
+#4 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(10): view('aluno_forms')
+#5 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-21 22:15:31 --> Array to string conversion
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\Estudos\\Code...', 15)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 22:18:32 --> Class "App\Controllers\Request" not found
+#0 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-21 22:18:56 --> Undefined property: App\Controllers\Aluno::$Request
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Estudos\\Code...', 16)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 22:21:39 --> Array to string conversion
+#0 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\Estudos\\Code...', 15)
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 22:50:13 --> Unclosed '{' on line 7
+#0 D:\Estudos\Codeigniter\odio\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('aluno/cadastrar')
+#1 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('aluno/cadastrar')
+#2 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-09-21 23:01:14 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:01:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:01:43 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:01:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:02:26 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:02:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:02:30 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:02:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:02:42 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:02:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:06:38 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:06:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:10:13 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:10:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:10:15 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:10:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:13:58 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:13:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:14:02 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:14:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:17:19 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:17:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:17:24 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:17:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:17:51 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:17:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:21:13 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:21:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:21:16 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:21:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:21:33 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:21:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:22:00 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:22:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-21 23:22:59 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+CRITICAL - 2021-09-21 23:22:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Call to undefined function CodeIgniter\Database\MySQLi\mysqli_init()
+#0 D:\Estudos\Codeigniter\odio\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Estudos\Codeigniter\odio\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#2 D:\Estudos\Codeigniter\odio\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Estudos\Codeigniter\odio\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Estudos\Codeigniter\odio\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Estudos\Codeigniter\odio\app\Controllers\Aluno.php(19): CodeIgniter\Model->insert()
+#6 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(802): App\Controllers\Aluno->cadastrar()
+#7 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#8 D:\Estudos\Codeigniter\odio\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Estudos\Codeigniter\odio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
