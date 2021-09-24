@@ -1,5 +1,5 @@
 <h1 Align='center'>Projeto captação de alunos</h1>
-  <p> Projeto feito com o Framework <strong>CodeIgnater4</strong>, usando um banco de dados <strong>MySql</strong>.</p>
+  <p> Projeto feito com o Framework <strong>CodeIgniter4</strong>, usando um banco de dados <strong>MySql</strong>.</p>
 
 <h2>Pré-requisito</h2>
 
