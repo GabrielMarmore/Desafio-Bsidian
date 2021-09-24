@@ -1,8 +1,8 @@
 <?php echo $this->include('aluno_header', array('titulo'=>$titulo)); ?>
 <main>
 <form method='post'>
-    <label for="search">Buscar por ID:</label>
-    <input name="search" type="text">
+    <label for="id_aluno">Buscar por ID:</label>
+    <input name="id_aluno" type="text">
 
     <input type="submit" value="Pesquisar">
 </form>
@@ -17,7 +17,7 @@
         <th>&nbsp;</th>
         <th>&nbsp;</th>
     </tr>
-    <?php foreach($id as $aluno) : ?>
+    <?php foreach($alunos as $aluno) : ?>
     <tr>
         <td> <?php echo $aluno->id; ?> </td>
         <td> <?php echo $aluno->nome; ?></td>

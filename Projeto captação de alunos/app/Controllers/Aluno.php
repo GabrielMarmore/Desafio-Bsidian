@@ -9,30 +9,22 @@ class Aluno extends BaseController{
         $alunoModel = new \App\Models\AlunoModel();
         $session=session();
 
-        $data['id']=$alunoModel->find();
+        $data['alunos']=$alunoModel->find();
         $data['titulo']='Listando todos os alunos';
         $data['msg']=$this->session->getFlashdata('msg');
-        $data['id']=$alunoModel->find();
-        
+        $data['aluno']='';
+
         if($this->request->getMethod()=='post'){
-            $id=$this->request->getPost(['search']);
-            //$id['search']<count($data['id']);
-            
-            //print_r($id['search'].' é maior que '.count($data['id']));
-            if(empty($id['search']) /*|| */){
+            $aluno=$this->request->getPost(['id_aluno']);
+        
+            if(empty($aluno['id_aluno']) || is_null($alunoModel->find($aluno['id_aluno']))){
                 echo view('aluno_select', $data);
-                //Se a busca for vazia ele chama a view 'aluno_select'
             }else{
-                if(is_null($alunoModel->find($id['search']))){
-                    echo view('aluno_select', $data);
-                }else{
-                    $data['aluno']=$alunoModel->find($id['search']);
-                    echo view('aluno_search',$data);
-                }
+                $data['aluno']=$alunoModel->find($aluno['id_aluno']);
+                echo view('aluno_search',$data);
             }
             die();
         }
-        
         echo view('aluno_select', $data);
     }
 
