@@ -64,7 +64,7 @@
         'port'     => 3306,
     ];
   
-    <ul><li>Pronto! Agora é só acessar a url: 'localhost:8080/public/Aluno/index'</li></ul>
+<ul><li>Pronto! Agora é só acessar a url: 'localhost:8080/public/Aluno/index'</li></ul>
 </ol>
 
 <h2>Repositorio</h2>
