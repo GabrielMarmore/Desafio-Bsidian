@@ -41,7 +41,6 @@
  
   <li>Conectar seu Database com o <strong>CodeIgniter</strong>;</li>
     <ul><li>Dentro da pasta 'Projeto captação de alunos' acesse: 'app\Config\Database.php'</li></ul>
-  
     <ul><li>Altere 'username' e 'password' para os respectivos valores do seu Database, e se necessario a 'port'</li></ul>
  
     public $default = [
