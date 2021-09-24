@@ -2,6 +2,7 @@
   <p> Projeto feito com o Framework <strong>CodeIgnater4</strong>, usando um banco de dados <strong>MySql</strong>.</p>
 
 <h2>Pré-requisito</h2>
+
 <ul>
   <li>PHP 7.3 ou maior;</li>
   <li>Servidor PHP;</li>
@@ -9,6 +10,7 @@
 </ul>
 
 <h2>Rodando a aplicação</h2>
+
 <ol>
   <li>Após baixar o codigo é necessario ligar seu servidor php, pode ser o Apache do XAMP, Server embutido do PHP ou CodeIgnietr;</li>
     <ul><li>Utilizei o server embutido do PHP:
@@ -17,10 +19,12 @@
         <li>Entrar no diretorio do projeto com o comando 'cd'</li>
         <li>Digitar: php -S localhost:8080</li>
       </ol>
-    </li></ul>
+    </ul>
+  <br>
   <li>Criar o Database com o script.sql que está na raiz do diretorio;</li>
     <ul><li>Usando seu database client rode o script abaixo, o mesmo do 'script-db-alunos.sql' na raiz do diretorio</li></ul>
-    ´´´mysql
+   
+  
     CREATE DATABASE alunos
     DEFAULT CHARACTER SET utf8mb4
     DEFAULT COLLATE utf8mb4_general_ci;
@@ -34,11 +38,12 @@
       cpf VARCHAR(11) NOT NULL,
       PRIMARY KEY(id)
     )DEFAULT CHARSET=utf8mb4;
-    ´´´mysql
+ 
   <li>Conectar seu Database com o <strong>CodeIgniter</strong>;</li>
     <ul><li>Dentro da pasta 'Projeto captação de alunos' acesse: 'app\Config\Database.php'</li></ul>
+  
     <ul><li>Altere 'username' e 'password' para os respectivos valores do seu Database, e se necessario a 'port'</li></ul>
-    ´´´php
+ 
     public $default = [
         'DSN'      => '',
         'hostname' => 'localhost',
@@ -58,14 +63,16 @@
         'failover' => [],
         'port'     => 3306,
     ];
-    ´´´php
+  
     <ul><li>Pronto! Agora é só acessar a url: 'localhost:8080/public/Aluno/index'</li></ul>
 </ol>
 
 <h2>Repositorio</h2>
+
   <p>Em 'Projeto capatção de dados' se encontra o Framework</p>
   <p>Em 'script-db-alunos.sql' se encontra o script para a criação do <strong>Banco de Dados MySql</strong> usado no projeto.</p>
 <h2>Funcionalidades</h2>
+
   <p><strong>CRUD</strong> (Create, Read, Update, Delete)</p>
   <p>Validação de dados</p>
   <p>Campo de pesquisa por ID</p>
