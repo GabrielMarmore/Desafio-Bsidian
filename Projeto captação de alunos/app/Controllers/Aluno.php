@@ -12,8 +12,8 @@ class Aluno extends BaseController{
         $data['alunos']=$alunoModel->find();
         $data['titulo']='Listando todos os alunos';
         $data['msg']=$this->session->getFlashdata('msg');
+        
         $data['aluno']='';
-
         if($this->request->getMethod()=='post'){
             $aluno=$this->request->getPost(['id_aluno']);
         
@@ -25,6 +25,7 @@ class Aluno extends BaseController{
             }
             die();
         }
+
         echo view('aluno_select', $data);
     }
 
@@ -36,17 +37,8 @@ class Aluno extends BaseController{
 
         if($this->request->getMethod()=='post'){
             $alunoModel = new \App\Models\AlunoModel();
-            /*Retorno de $this->request->getPost();
-                Array
-                (
-                    [id] => 
-                    [nome] => 
-                    [telefone] => 
-                    [email] => 
-                    [cpf] => 
-                )
-            */
             $dadosAluno = $this->request->getPost();
+
             if($alunoModel->insert($dadosAluno)){
                 $data['msg'] = 'Aluno inserido com sucesso';
             }else{
@@ -84,11 +76,7 @@ class Aluno extends BaseController{
 
     public function deletar($id = null){
         $alunoModel = new \App\Models\AlunoModel();
-        //$aluno = $alunoModel->find($id);
-
         if(is_null($id)){
-            //redirecionar para a aplicação para o categorias/index
-            //definir uma msg via session
             $this->session->setFlashdata('msg', 'Aluno não encontrado');
             return redirect()->to(base_url('/public/'));
         }else{
